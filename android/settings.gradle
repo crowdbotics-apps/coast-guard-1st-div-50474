@@ -1,0 +1,4 @@
+rootProject.name = 'coast_guard_1st_div_50474'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+includeBuild('../node_modules/react-native-gradle-plugin')
